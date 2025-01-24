@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun-o-Meter: What's Your Personality?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="School Logo" class="logo">
+        <h1>ST. VINCENT PALLOTTI SCHOOL</h1>
+        <h2>Fun-o-Meter: What's Your Personality?</h2>
+    </div>
+    <div class="quiz-container">
+        <form id="quiz-form">
+            <div class="question">
+                <h3>1. What’s your go-to karaoke song?</h3>
+                <label><input type="radio" name="q1" value="A"> Let It Go</label>
+                <label><input type="radio" name="q1" value="B"> Eye of the Tiger</label>
+                <label><input type="radio" name="q1" value="C"> Baby Shark</label>
+                <label><input type="radio" name="q1" value="D"> I’d rather lip-sync</label>
+            </div>
+            <div class="question">
+                <h3>2. If you were stranded on an island, what would you bring?</h3>
+                <label><input type="radio" name="q2" value="A"> A lifetime supply of snacks</label>
+                <label><input type="radio" name="q2" value="B"> A mirror</label>
+                <label><input type="radio" name="q2" value="C"> A volleyball</label>
+                <label><input type="radio" name="q2" value="D"> My phone</label>
+            </div>
+            <div class="question">
+                <h3>3. What’s your reaction when your favorite snack is unavailable?</h3>
+                <label><input type="radio" name="q3" value="A"> Cry in the corner</label>
+                <label><input type="radio" name="q3" value="B"> Find a new snack</label>
+                <label><input type="radio" name="q3" value="C"> Yell, “This is betrayal!”</label>
+                <label><input type="radio" name="q3" value="D"> Meh, wasn’t that hungry</label>
+            </div>
+            <!-- Add remaining 7 questions similarly -->
+            <div class="submit-button">
+                <button type="button" id="submit-quiz">Find My Personality</button>
+            </div>
+        </form>
+        <div id="result" class="hidden">
+            <h3>Your Personality Type:</h3>
+            <p id="personality"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 ST. VINCENT PALLOTTI SCHOOL. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
